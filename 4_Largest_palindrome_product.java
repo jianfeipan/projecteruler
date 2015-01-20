@@ -2,6 +2,8 @@
 Find the largest palindrome made from the product of two 3-digit numbers.*/
 public class Largest_palindrome_product{
   public static void find3digitproductPalindrom(){
+     int numberA=999;
+     int numberB=999;
      
   }
   
