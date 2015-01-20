@@ -2,4 +2,14 @@
 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, ...
 By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.*/
 class Fibonacci{
+  private final int start1=1;
+  private final int start2=2;
+  public static int fibonacciAt(int i){
+    if(i==0)
+      return start1;
+    else if(i==1)
+      return start2;
+    else
+      return fibonacciAt(i-1)+fibonacciAt(i-2);
+  }
 }
