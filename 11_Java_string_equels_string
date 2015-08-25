@@ -1,4 +1,6 @@
 /*pay attention to Java compiler optimization*/
 public class JavaStringEquelsTest{
-
+    String a = "abc";
+    String b = "a"+"b"+"c";
+    System.out.print(a==b);
 }
